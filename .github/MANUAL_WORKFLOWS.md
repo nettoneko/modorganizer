@@ -10,7 +10,7 @@ The ModOrganizer repository supports manual triggering of CI/CD workflows from t
 - **Manual trigger**: Available via GitHub Actions UI
 
 ### Lint ModOrganizer 2
-- **Workflow file**: `.github/workflows/linting.yml`  
+- **Workflow file**: `.github/workflows/linting.yml`
 - **Description**: Runs code formatting and linting checks
 - **Manual trigger**: Available via GitHub Actions UI
 
@@ -18,7 +18,7 @@ The ModOrganizer repository supports manual triggering of CI/CD workflows from t
 
 1. Navigate to the **Actions** tab in the GitHub repository
 2. Select the workflow you want to run from the left sidebar:
-   - "Build ModOrganizer 2" 
+   - "Build ModOrganizer 2"
    - "Lint ModOrganizer 2"
 3. Click the **"Run workflow"** button on the right side
 4. Select the branch you want to run the workflow on (typically `master`)
