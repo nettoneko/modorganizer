@@ -1,10 +1,13 @@
 name: Build ModOrganizer 2
 
 on:
+  # Automatic triggers
   push:
     branches: [master]
   pull_request:
     types: [opened, synchronize, reopened]
+  # Manual trigger - allows users to manually start the build from GitHub Actions UI
+  workflow_dispatch:
 
 env:
   VCPKG_BINARY_SOURCES: clear;x-azblob,${{ vars.AZ_BLOB_VCPKG_URL }},${{ secrets.AZ_BLOB_SAS }},readwrite
