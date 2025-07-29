@@ -1,11 +1,9 @@
 name: Lint ModOrganizer 2
 
 on:
-  # Automatic triggers
   push:
   pull_request:
     types: [opened, synchronize, reopened]
-  # Manual trigger - allows users to manually start the linting from GitHub Actions UI
   workflow_dispatch:
 
 jobs:
